@@ -1,0 +1,97 @@
+/* ページ全体 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+}
+
+/* タイトル */
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #444444;
+  margin-top: 50px;
+}
+
+/* サブタイトル */
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #444444;
+  margin-top: 30px;
+}
+
+/* テキスト */
+p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+
+/* 色の強調 */
+font[color="red"] {
+  color: #FF6666;
+}
+
+/* リンク */
+a {
+  color: #666666;
+  text-decoration: none;
+  border-bottom: 1px solid #666666;
+}
+
+a:hover {
+  color: #444444;
+  border-bottom: 1px solid #444444;
+}
+
+/* 画像 */
+img {
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 中央揃え */
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* ヘッダー */
+header {
+  background-color: #444444;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav a {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* フッター */
+footer {
+  background-color: #444444;
+  color: #FFFFFF;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+}
