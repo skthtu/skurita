@@ -1,97 +1,70 @@
-/* ページ全体 */
+/* body要素のスタイル */
 body {
+  background-color: #f9f9f9;
   font-family: Arial, sans-serif;
-  background-color: #F5F5F5;
+  color: #444;
+  line-height: 1.5;
 }
 
-/* タイトル */
+/* h1要素のスタイル */
 h1 {
-  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
   font-weight: bold;
-  color: #444444;
-  margin-top: 50px;
+  text-shadow: 2px 2px 5px #555;
+  color: #fff;
+  background-color: #45aaf2;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-/* サブタイトル */
+/* h2要素のスタイル */
 h2 {
-  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 24px;
   font-weight: bold;
-  color: #444444;
-  margin-top: 30px;
+  text-align: center;
 }
 
-/* テキスト */
+/* p要素のスタイル */
 p {
-  font-size: 16px;
-  color: #666666;
-  line-height: 1.5em;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
 }
 
-/* 色の強調 */
-font[color="red"] {
-  color: #FF6666;
-}
-
-/* リンク */
+/* a要素のスタイル */
 a {
-  color: #666666;
+  color: #45aaf2;
   text-decoration: none;
-  border-bottom: 1px solid #666666;
 }
 
 a:hover {
-  color: #444444;
-  border-bottom: 1px solid #444444;
+  color: #fff;
+  background-color: #45aaf2;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-/* 画像 */
+/* img要素のスタイル */
 img {
   margin: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px #ccc;
+  border-radius: 10px;
 }
 
-/* 中央揃え */
-.center {
-  display: flex;
-  justify-content: center;
+/* リストのスタイル */
+ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
 }
 
-/* ヘッダー */
-header {
-  background-color: #444444;
-  color: #FFFFFF;
-  padding: 20px;
-}
-
-header h1 {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 0;
-}
-
-header nav {
-  display: flex;
-  justify-content: center;
-}
-
-header nav a {
+li {
+  margin-bottom: 5px;
   font-size: 18px;
-  font-weight: bold;
-  margin: 0 10px;
-}
-
-/* フッター */
-footer {
-  background-color: #444444;
-  color: #FFFFFF;
-  padding: 20px;
-  margin-top: 50px;
-}
-
-footer p {
-  margin: 0;
-  font-size: 14px;
-  text-align: center;
+  line-height: 1.5;
 }
